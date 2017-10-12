@@ -1,0 +1,20 @@
+/* 
+    Description: iShouvik.com home page stylesheet
+    @author: Shouvik Mukherjee <contact@ishouvik.com>
+*/
+
+.home .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.home .intro {
+    min-height: 40vh;
+    width: 100%;
+    display: table
+}
+
+.home .intro .content {
+    display: table-cell;
+    vertical-align: middle;
+}
