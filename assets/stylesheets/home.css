@@ -74,6 +74,7 @@ a, .highlight {
     vertical-align: middle;
 }
 .home .intro .content h1 {
+    width: 100%;
     padding: 1% 7%;
     font-size: 350%;
     font-weight: normal;
@@ -97,7 +98,7 @@ a, .highlight {
 }
 
 .home .intro .content i {
-    margin-right: 15px;
+    margin-right: 5%;
 }
 
 .home .intro .content .emailButton {
@@ -122,4 +123,11 @@ a, .highlight {
 
 .home .profile ul li {
     margin: 5px 0;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 991px) {
+    .home .intro {
+        background: transparent;
+    }
 }
