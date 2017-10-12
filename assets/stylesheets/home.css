@@ -55,10 +55,11 @@ a, .highlight {
     display: inline-block;
     opacity: 0.85;
     text-shadow: 1px 1px #000000;
+    border-radius: 1px;
 }
 
-.home .intro .content h2 {
-    font-size: 120%;
+.home .intro .content h1:hover {
+    opacity: 1.0;
 }
 
 .home .intro .content h1,
