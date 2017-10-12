@@ -3,16 +3,22 @@
     @author: Shouvik Mukherjee <contact@ishouvik.com>
 */
 
+.highlight {
+    color: #FF4C00;
+}
+
 .home .container-fluid {
     padding-left: 0;
     padding-right: 0;
 }
 
 .home section {
-    margin-bottom: 25px;
+    margin-bottom: 4em;
     clear: both;
     float: none;
 }
+
+/* INTRO */
 
 .home .intro {
     margin: 0;
@@ -60,6 +66,22 @@
     margin-right: 3%;
 }
 
-.orange {
-    color: #FF4C00;
+
+/* PROFILE */
+.home .profile {
+    color: #878787;
+}
+
+.home .profile h3 {
+    text-transform: uppercase;
+    font-size: 120%;
+    color: #333333;
+}
+
+.home .profile ul {
+    padding: 1em 0 1em 1.5em;
+}
+
+.home .profile ul li {
+    margin: 5px 0;
 }
