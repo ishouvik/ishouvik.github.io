@@ -126,7 +126,7 @@ a, .highlight {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
     .home .intro {
         background: transparent;
     }
