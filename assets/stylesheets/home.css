@@ -90,6 +90,7 @@ a, .highlight {
 
 .home .profile ul {
     padding: 1em 0 1em 1.5em;
+    border-top: 1px solid #E0E8ED;
 }
 
 .home .profile ul li {
