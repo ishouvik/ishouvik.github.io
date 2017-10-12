@@ -28,9 +28,10 @@ a, .highlight {
     margin-top: 4em;
     margin-bottom: 0;
     padding: 25px;
-    min-height: 20vh;
+    min-height: 15vh;
     color: #8c8c8c;
     background: #333333;
+    box-shadow: 10px -5px -5px -5px #000000;
 }
 
 .siteFooter h3 {
