@@ -17,12 +17,39 @@ a, .highlight {
     padding-right: 0;
 }
 
-.home section {
+.home section, .siteFooter{
     margin-bottom: 4em;
     clear: both;
     float: none;
 }
 
+
+/* SITE FOOTER */
+.siteFooter {
+    margin-top: 4em;
+    margin-bottom: 0;
+    padding: 25px;
+    min-height: 20vh;
+    color: #8c8c8c;
+    background: #333333;
+}
+
+.siteFooter h3 {
+    font-weight: normal;
+}
+
+.siteFooter a {
+    color: #ffffff;
+}
+
+.siteFooter a:hover {
+    color: #ffffff;
+    text-transform: underline;
+}
+
+.siteFooter .header h3 {
+    font-size: 150%;
+}
 
 /* INTRO */
 .home .intro {
