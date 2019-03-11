@@ -11,9 +11,9 @@
     <meta property="og:type" content="website"/>
     <meta property="og:description" content="Being a full-stack developer I guide product ideas to develop scalable we applications that look amazing and scale with time."/>
     <meta name="description" content="Being a full-stack developer I guide product ideas to develop scalable we applications that look amazing and scale with time." />
-    <meta name="theme-color" content="#C6BBB1" />
+    <meta name="theme-color" content="#041230" />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="./vendor/assets/stylesheets/animate.min.css">
     <link rel="stylesheet" href="./assets/stylesheets/home.css">
@@ -21,105 +21,82 @@
 
   <body class="home">
     <section class="container-fluid">
-        <div class="intro-background">
-            <div class="intro jumbotron">
-                <div class="content animated fadeIn">
-                    <div class="col-md-12 col-lg-6">
-                        <h1 class="text-center">Shouvik Mukherjee</h1>
-                        <h2>Entrepreneur | Full-Stack Developer | Product Enthusiast</h2>
-                        <p>Devops enthusiast, FOSS supporter, turns ideas into products</p>
-                        <div class="row">
-                            <div class="col-md-6 col-lg-3 socialProfiles">
-                                <p>
-                                    <a href="https://www.linkedin.com/in/shouvikmukherjee/" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a> 
-                                    <a href="https://twitter.com/ishouvik" target="_blank"><i class="fa fa-2x fa-twitter"></i></a> 
-                                    <a href="https://github.com/ishouvik" target="_blank"><i class="fa fa-2x fa-github"></i></a> 
-                                </p>
-                            </div>
-                            <div class="col-md-6 col-lg-4 emailButton">
-                                <p>
-                                    <a class="btn btn-block btn-warning" href="mailto:contact@ishouvik.com" target="_blank">
-                                        <i class="fa fa-envelope"></i> Contact me
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="intro jumbotron">
+        <div class="content animated fadeIn text-center">
+          <img class='img-thumbnail rounded-circle' height='200' width='200' alt='Shouvik Mukherjee' src='./assets/images/shouvik-mukherjee.jpg' />
+          <h1>Shouvik <span class='highlight'>Mukherjee</span></h1>
+          <h2>Entrepreneur | Full-Stack Developer | Product Enthusiast</h2>
+          <p class='socialProfiles'>
+            <a class='mr-2  ' href="https://www.linkedin.com/in/shouvikmukherjee/" target="_blank"><i class="fa fa-2x fa-envelope"></i></a>
+            <a class='mr-2  ' href="https://www.linkedin.com/in/shouvikmukherjee/" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
+            <a class='mr-2  ' href="https://twitter.com/ishouvik" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+            <a class='mr-2  ' href="https://github.com/ishouvik" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+          </p>
         </div>
+      </div>
+  </section>
+
+  <section class="container profile animated fadeInUp">
+    <div class="row">
+      <div class="col-md-4 skills">
+          <h3>Day-to-day comfort</h3>
+          <ul>
+            <li><span class='highlight'>Ruby on Rails</span></li>
+            <li><span class='highlight'>ReactJS</span></li>
+            <li><span class='highlight'>ExpressJS</span></li>
+            <li>Sass</li>
+            <li>MySQL</li>
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>
+            <li>Bootstrap, Semantic UI, Ant Design</li>
+          </ul>
+      </div>
+      <div class="col-md-4 experience">
+        <h3>Experienced with</h3>
+        <ul>
+          <li>Amazon Web Services</li>
+          <li>Google Cloud</li>
+          <li>Service Oriented Architecture</li>
+          <li>Redis</li>
+          <li>Memcached</li>
+          <li>Git / Git Flow</li>
+          <li>Docker</li>
+          <li>Kubernetes (limited)</li>
+        </ul>
+      </div>
+      <div class="col-md-4 twitter">
+        <h3>Follow me <a href="https://twitter.com/ishouvik" target="_blank">@iShouvik</a></h3>
+        <a  class="twitter-timeline"
+          data-dnt="true" href="https://twitter.com/ishouvik"
+          data-widget-id="320496905564065793"
+          data-tweet-limit="1"
+          data-chrome="noheader nofooter noborder noscrollbar">Twitter @iShouvik</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container-fluid siteFooter">
+    <section class="header text-center">
+      <p>
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:contact@ishouvik.com">
+            contact [at] ishouvik [dot] com
+        </a>
+      </p>
+
+      <div class="socialProfiles">
+        <p>
+          <a href="https://www.linkedin.com/in/shouvikmukherjee/" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
+          <a href="https://twitter.com/ishouvik" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+          <a href="https://github.com/ishouvik" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+        </p>
+      </div>
     </section>
+  </footer>
 
-    <section class="container profile animated fadeInUp">
-        <div class="row">
-            <div class="col-md-4 skills">
-                <h3>Day-to-day comfort</h3>
-                <ul>
-                    <li><span class="highlight">Ruby on Rails</span></li>
-                    <li>Sass</li>
-                    <li>HTML5 / CSS3</li>
-                    <li>MySQL</li>
-                    <li>PostgreSQL</li>
-                    <li>MongoDB</li>
-                    <li>Service Oriented Architecture</li>
-                    <li>Bootstrap / Semantic UI</li>
-                    <li>Agile Methodology</li>
-                    <li>Mobile First Thinking</li>
-                </ul>
-            </div>
-            <div class="col-md-4 experience">
-                <h3>Experienced with</h3>
-                <ul>
-                    <li>AWS (Route 53, S3, EC2, RDS, CloudFront)</li>
-                    <li>Redis</li>
-                    <li>Memcached</li>
-                    <li>NewRelic</li>
-                    <li>Git / Git Flow</li>
-                    <li>Docker</li>
-                    <li>Kubernetes (limited)</li>
-                    <li>ExpressJS (limited)</li>
-                    <li>ReactJS (limited)</li>
-                    <li>Wordpress</li>
-                    <li>Elgg</li>
-                </ul>
-            </div>
-            <div class="col-md-4 twitter">
-                <h3>Follow me <a href="https://twitter.com/ishouvik" target="_blank">@iShouvik</a></h3>
-                <a  class="twitter-timeline"
-                    data-dnt="true" href="https://twitter.com/ishouvik"
-                    data-widget-id="320496905564065793"
-                    data-tweet-limit="1"
-                    data-chrome="noheader nofooter noborder noscrollbar">Twitter @iShouvik</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            </div>
-        </div>
-    </section>
-
-    <footer class="container-fluid siteFooter">
-        <section class="header text-center">
-            <h3>Choose a tech stack that looks amazing, serves your business and scales with time</h3>
-            <p>
-                <i class="fa fa-envelope"></i>  Ping me: 
-                <a href="mailto:contact@ishouvik.com">
-                    contact [at] ishouvik [dot] com
-                </a>
-            </p>
-
-            <div class="socialProfiles">
-                <p>
-                    <a href="https://www.linkedin.com/in/shouvikmukherjee/" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a> 
-                    <a href="https://twitter.com/ishouvik" target="_blank"><i class="fa fa-2x fa-twitter"></i></a> 
-                    <a href="https://github.com/ishouvik" target="_blank"><i class="fa fa-2x fa-github"></i></a> 
-                </p>
-            </div>
-        </section>
-        <section class="copyRight text-center">
-            <p>&copy 2017 Shouvik Mukherjee. All rights reserved.</p>
-        </section>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   </body>
 </html>
